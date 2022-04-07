@@ -7,11 +7,11 @@
 */
 int main(void)
 {
-	char stm[100];
+	char stm[69];
 	int i = 0;
 
 	strcpy(stm, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
-	for (; i < 100; i++)
+	for (; i < 69; i++)
 	putchar(stm[i]);
 
 	return (1);
