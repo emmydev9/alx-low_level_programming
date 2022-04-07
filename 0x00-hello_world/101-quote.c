@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	char stm[59];
+	char stm[60];
 	int i = 0;
 
 	strcpy(stm, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
