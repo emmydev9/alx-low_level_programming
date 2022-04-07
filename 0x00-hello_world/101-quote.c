@@ -7,12 +7,9 @@
 */
 int main(void)
 {
-	char stm[59];
+	char stm[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
 	int i = 0;
-
-	strcpy(stm, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	for (; i < 59; i++)
-	putchar(stm[i]);
-
+	
+	write(2,stm,59);
 	return (1);
 }
