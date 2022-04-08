@@ -18,10 +18,10 @@ int main(void)
 	while (k < 58)
 {
 	j = 48;
-	while(j < 58)
+	while (j < 58)
 {
 	i = 48;
-	while(i < 58)
+	while (i < 58)
 {
 	o1 = (l * 10) + k;
 	o2 = (j * 10) + i;
