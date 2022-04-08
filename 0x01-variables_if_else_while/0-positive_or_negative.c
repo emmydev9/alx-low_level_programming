@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
 * main - Entry Points Function
 * @void: No arguments
 * Return: returns 0 if success
-*/
+**/
 int main(void)
 {
 	int n;
@@ -15,7 +16,7 @@ int main(void)
 		printf("%d is negative", n);
 	else if (n == 0)
 		printf("%d is zero", n);
-	else 
+	else
 		printf("%d is positive", n);
 	return (0);
 }
