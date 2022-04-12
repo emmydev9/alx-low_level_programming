@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * _islower - print alphabets to the stdout
-* @int: takes an integer argument
+* @c: takes an integer argument
+* Return: returns 1 if lowercase character is met
 **/
 int  _islower(int c)
 {
