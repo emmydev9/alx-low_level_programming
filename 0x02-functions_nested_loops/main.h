@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "stdio.h"
 /**
 * print_alphabet - print alphabets to the stdout
 * @void: takes no argument
@@ -6,8 +6,8 @@
 void print_alphabet(void)
 {
 	int i;
-	for (i = 'a'; i <='z'; i++)
-		_putchar(i);
+	for (i = 97; i <= 122; i++)
+		putchar(i);
 
-	_putchar('\n');
+	putchar('\n');
 }
