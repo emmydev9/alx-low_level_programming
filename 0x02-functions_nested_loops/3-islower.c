@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet - print alphabets to the stdout
+* _islower - print alphabets to the stdout
 * @int: takes an integer argument
 **/
 int  _islower(int c)
