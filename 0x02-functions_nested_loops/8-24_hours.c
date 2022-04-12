@@ -3,7 +3,7 @@
 #include "stdlib.h"
 /**
 * jack_bauer - print alphabets to the stdout
-* @n: takes an integer argument
+* @void: takes no argument
 * Return: absolute value
 **/
 void jack_bauer(void)
