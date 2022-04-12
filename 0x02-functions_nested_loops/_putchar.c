@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include "main.h"
 /**
 * _putchar - print out characters
 * @char: Takes a char 

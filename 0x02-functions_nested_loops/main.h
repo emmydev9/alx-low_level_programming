@@ -1,18 +1,9 @@
-#include "stdio.h"
-/**
-* print_alphabet - print alphabets to the stdout
-* @void: takes no argument
-**/
-int  _islower(int c)
-{
-	if (c >= 97 && c <= 122)
-{
-	return (1);
-}
-	else
-{
-	return (0);
-}
-	putchar('\n');
+#ifndef _main_h_
+#define _main_h_
 
-}
+int _putchar(char);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+
+#endif
