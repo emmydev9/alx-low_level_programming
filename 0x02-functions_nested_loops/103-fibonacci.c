@@ -20,7 +20,7 @@ while (fn <= 4000000)
 	n2 = fn;
 	if ((n1 % 2) == 0)
 	{
-		sum += 1;
+		sum += n1;
 	}
 }
 	printf("%ld\n", sum);
