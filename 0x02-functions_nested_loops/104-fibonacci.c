@@ -19,7 +19,7 @@ for (c = 0; c < 98; c++)
 	if (boolean)
 	{
 		fn = n1 + n2;
-		printf(", %ld,", fn);
+		printf(", %ld", fn);
 		n1 = n2;
 		n2 = fn;
 	}
