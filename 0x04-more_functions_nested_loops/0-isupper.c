@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _isupper - Entry point function
+* _isupper - Entry point functions
 * @c: int argument
-* return: return either 0 or 1
+* Return: return either 0 or 1
 **/
 int _isupper(int c)
 {
