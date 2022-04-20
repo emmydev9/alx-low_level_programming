@@ -26,7 +26,7 @@ void puts_half(char *str)
 	else
 	{
 		div = strlen / 2;
-		for (div++; div < strlen + 1; div++)
+		for (div++; div < strlen; div++)
 		{
 			_putchar(str[div]);
 		}
