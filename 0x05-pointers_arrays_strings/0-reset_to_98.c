@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-* main - modify the value
-* @void: No argument
+* reset_to_98 - modify the value
+* @n: Pointer to an int
 * Return: success
 **/
 
