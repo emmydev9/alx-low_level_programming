@@ -16,15 +16,18 @@ void puts_half(char *str)
 	if (strlen % 2 == 0)
 	{
 		div = strlen / 2;
-		for (; div <= strlen; div++)
+		for (; div < strlen; div++)
 		{
 			_putchar(str[div]);
 		}
 	}
 	else
 	{
-		div = (strlen - 1) / 2;
-		_putchar(str[div]);
+		div = strlen / 2;
+		for (; div < strlen + 1; div++)
+		{
+			_putchar(str[div]);
+		}
 	}
 	_putchar('\n');
 }
