@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
 * puts_half - prints half string
 * @str: pointer to a string
@@ -8,6 +9,7 @@
 void puts_half(char *str)
 {
 	int strlen = 0;
+
 	int div = 0;
 
 	while (*(str + strlen) != '\0')
@@ -24,7 +26,7 @@ void puts_half(char *str)
 	else
 	{
 		div = strlen / 2;
-		for (; div < strlen + 1; div++)
+		for (div--; div < strlen + 1; div++)
 		{
 			_putchar(str[div]);
 		}
