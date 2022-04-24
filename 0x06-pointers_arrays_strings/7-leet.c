@@ -9,7 +9,7 @@
 
 char *leet(char *ms)
 {
-	int strlen = 0, i;	
+	int strlen = 0, i;
 
 	int codenum[] = {52, 51, 48, 55, 49};
 	int small_alpha[] = {97, 101, 111, 116, 108};
@@ -19,7 +19,7 @@ char *leet(char *ms)
 	{
 		for (i = 0; i < 5; i++)
 		{
-			if(*(ms + strlen) == small_alpha[i] || *(ms + strlen) == capital_alpha[i])
+			if (*(ms + strlen) == small_alpha[i] || *(ms + strlen) == capital_alpha[i])
 			{
 				*(ms + strlen) = codenum[i];
 				break;
