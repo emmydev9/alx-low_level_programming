@@ -25,7 +25,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		return (0);
 	r[biggest + 1] = '\0';
 	n1len--, n2len--, size_r--;
-	dv1 = *(n1 + n1len) - 48, dv2 = *(n2 + n1len) - 48;
+	dv1 = *(n1 + n1len) - 48, dv2 = *(n2 + n2len) - 48;
 	while (biggest >= 0)
 	{
 		operation = dv1 + dv2 + add;
