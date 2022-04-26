@@ -10,7 +10,7 @@
 
 char *_strchr(char *s, char c)
 {
-	int count = 0, i, marker = 0;
+	int count = 0, i;
 
 	while (*(s + count) != '\0')
 		count++;
@@ -18,10 +18,6 @@ char *_strchr(char *s, char c)
 	{
 		if (*(s + i) == c)
 			return (s + i);
-		marker++;
 	}
-	if (marker == count)
-		return ('\0');
-	else
-		return (s + i);
+	return ('\0');
 }
