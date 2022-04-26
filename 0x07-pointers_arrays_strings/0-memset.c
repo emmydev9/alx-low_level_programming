@@ -6,6 +6,7 @@
 * @s: buffer to store the byte
 * @b: char byte.
 * @n: size of b.
+* Return: buffer.
 **/
 
 char *_memset(char *s, char b, unsigned int n)
@@ -14,12 +15,11 @@ char *_memset(char *s, char b, unsigned int n)
 
 	i = 0;
 
-	while(i < n)
+	while (i < n)
 	{
 		*(s + i) = b;
 		i++;
 	}
 
-	printf("\n");
 	return (s);
 }
