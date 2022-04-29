@@ -3,9 +3,10 @@
 
 /**
 * strlen_rec - get the strlen recursively
-* @n: str length.
-* Return: int.
+* @s: str.
+* Return: string length.
 **/
+
 int strlen_rec(char *s)
 {
 	int i;
@@ -20,7 +21,8 @@ int strlen_rec(char *s)
 	return (i);
 }
 
-/** compare - compares each character
+/**
+* compare - compares each character
 * @s: pointer to the char.
 * @c1: position of present char.
 * @c2: position of next char.
