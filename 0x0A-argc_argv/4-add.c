@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) == 0 && *(argv[i]) != 48)
+		if ((atoi(argv[i]) == 0 && *(argv[i]) != 48) || atoi(argv[i]) < 0)
 		{
 			printf("%s\n", "Error");
 			return (1);
