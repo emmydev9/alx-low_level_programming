@@ -12,8 +12,8 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i, j, k, count;
 	char *alloc;
+	unsigned int i, j, k, count;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -41,6 +41,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		else
 			alloc[count] = s2[count - i];
 	}
-	alloc[i] = '\0';
+	alloc[count] = '\0';
 	return (alloc);
 }
