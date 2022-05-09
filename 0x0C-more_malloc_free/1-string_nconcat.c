@@ -27,12 +27,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (n > j)
 		n = j;
+
 	k = i + n;
 
 	alloc = malloc(k + 1);
 	if (alloc == NULL)
 		return (NULL);
-	for (count = 0; count < k; i++)
+	for (count = 0; count < k; count++)
 	{
 		if (count < i)
 			alloc[count] = s1[count];
