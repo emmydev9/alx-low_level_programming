@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
@@ -9,7 +9,6 @@
  *
  * Return: no return.
  */
-
 void _is_zero(char *argv[])
 {
 	int i, isn1 = 1, isn2 = 1;
