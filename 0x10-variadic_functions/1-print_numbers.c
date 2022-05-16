@@ -8,7 +8,8 @@
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i, pointer;
+	unsigned int i; 
+	int pointer;
 	va_list ptr;
 
 	if (n != 0)
