@@ -2,7 +2,7 @@
 
 /**
 * print_all - prints anything.
-* @format - format to be printed.
+* @format: format to be printed.
 **/
 
 void print_all(const char * const format, ...)
@@ -13,10 +13,10 @@ void print_all(const char * const format, ...)
 	const char fmts[] = "cifs";
 
 	va_start(ptr, format);
-	while(format && format[i])
+	while (format && format[i])
 	{
 		j = 0;
-		while(fmts[j])
+		while (fmts[j])
 		{
 			if (format[i] == fmts[j] && k)
 			{
@@ -47,5 +47,4 @@ void print_all(const char * const format, ...)
 		} i++;
 	}
 	printf("\n"), va_end(ptr);
-
 }
