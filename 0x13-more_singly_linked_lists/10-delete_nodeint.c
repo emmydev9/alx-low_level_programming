@@ -4,6 +4,7 @@
 * delete_nodeint_at_index - delete node at given index
 * @head: head of a list.
 * @index: given point.
+* Return: delete status.
 **/
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
