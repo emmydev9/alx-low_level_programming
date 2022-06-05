@@ -182,7 +182,7 @@ int check_elf(char *ptr)
 	char F = ptr[3];
 
 	if (addr == 127 && E == 'E' && L == 'L' && F == 'F')
-		return (-1);
+		return (1);
 	return (0);
 }
 
