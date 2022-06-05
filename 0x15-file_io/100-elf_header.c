@@ -11,7 +11,7 @@ void print_addr(char *ptr)
 {
 	int i;
 	int begin;
-	int sys;
+	char sys;
 
 	printf("  Entry point address:               0x");
 
